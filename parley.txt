@@ -1,0 +1,8 @@
+Parley 
+https://betsapi.com/
+
+Still unable to trade, And data is the same.
+Integration also doesnt work.
+When I press unlock metamask in the betting slip it doesnt work.
+The entire betting slip part doesnt work.
+Transactions, Positions and Order page is empty.

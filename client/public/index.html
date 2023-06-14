@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>React App</title>
+  </head>
+  <body>
+    <style type="text/css">
+      .adjust {
+        width: 44px;
+      }
+      .study1 {
+        background-image: url("https://www.bovada.com/wp-content/uploads/2021/03/nfl-2.jpg");
+        height: 600px;
+        width: 100%;
+        position: relative;
+        z-index: 1;
+      }
+      .flag {
+        width: 23px;
+        height: 39px;
+      }
+      .dropdown:hover .dropdown-menu {
+        display: block;
+      }
+      .fsize {
+        font-size: 12px;
+      }
+      .study1:after {
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        z-index: -1;
+      }
+
+      .title {
+        margin: 0 auto;
+        width: 60%;
+        display: block;
+        font-size: 1.25em;
+        color: #ccc;
+        text-align: center;
+        padding-top: 70px;
+      }
+      .transparent-dark {
+        background: rgba(0, 0, 0, 0.5);
+
+        height: 100%;
+      }
+      .navbar {
+        transition: all 0.4s;
+      }
+      .bordering {
+        border-radius: 23px;
+      }
+
+      .navbar .nav-link {
+        color: #fff;
+      }
+
+      .navbar .nav-link:hover,
+      .navbar .nav-link:focus {
+        color: #fff;
+        text-decoration: none;
+      }
+
+      .navbar .navbar-brand {
+        color: #fff;
+      }
+
+      /* Change navbar styling on scroll */
+      .navbar.active {
+        background: #fff;
+        box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+      }
+
+      .navbar.active .nav-link {
+        color: #555;
+      }
+
+      .navbar.active .nav-link:hover,
+      .navbar.active .nav-link:focus {
+        color: #555;
+        text-decoration: none;
+      }
+
+      .navbar.active .navbar-brand {
+        color: #555;
+      }
+
+      /* Change navbar styling on small viewports */
+      @media (max-width: 991.98px) {
+        .navbar {
+          background: #fff;
+        }
+
+        .navbar .navbar-brand,
+        .navbar .nav-link {
+          color: #555;
+        }
+      }
+      .overlay .closebtn {
+        position: sticky;
+        top: 40px;
+        right: 45px;
+        font-size: 60px;
+      }
+      .overlayDiv .closebtn {
+        position: sticky;
+        top: 40px;
+        right: 45px;
+        font-size: 60px;
+      }
+      .section {
+        background-color: rgba(0, 0, 0, 0.7);
+      }
+      .hover a:hover {
+        color: red !important;
+      }
+      .bgImg {
+        background-image: url("https://www.bovada.com/wp-content/uploads/2021/03/nfl-2.jpg");
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        opacity: 0.4;
+      }
+      .overlay {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        overflow-x: hidden;
+        transition: 0.5s;
+      }
+      .overlayDiv {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        overflow-x: hidden;
+        transition: 0.5s;
+      }
+      .size {
+        width: 45px;
+      }
+      .open {
+        display: inline-block;
+      }
+    </style>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+    <script type="text/javascript">
+      function openNav() {}
+      $(function () {
+        $(window).on("scroll", function () {
+          if ($(window).scrollTop() > 10) {
+            $(".navbar").addClass("active");
+            $(".nav-link").addClass("font-weight-bold");
+          } else {
+            $(".navbar").removeClass("active");
+            $(".nav-link").removeClass("font-weight-bold");
+          }
+        });
+      });
+    </script>
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.0.1/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.0.1/firebase-analytics.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      const firebaseConfig = {
+        apiKey: "AIzaSyAt1JwtFWAzvDVskWnSs1ljwYIqMxwmMAU",
+        authDomain: "parlay-18c45.firebaseapp.com",
+        projectId: "parlay-18c45",
+        storageBucket: "parlay-18c45.appspot.com",
+        messagingSenderId: "564201633713",
+        appId: "1:564201633713:web:eea240ee01ebbf671a2f90",
+        measurementId: "G-L990YSZYDW",
+      };
+
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+    </script>
+  </body>
+</html>

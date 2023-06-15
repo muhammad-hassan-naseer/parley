@@ -1,18 +1,26 @@
-# Getting Started with Create React App
+# About Project
+
+Parley betting exchnage is an online Crypto betting site or platforms that allow users to bet and gamble using cryptocurrencies such as Bitcoin, Ethereum, Litecoin, and others. These sites leverage blockchain technology to offer secure, transparent, and decentralized betting experiences.
+Lear More https://parlay-18c45.web.app/faq
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### Available Scripts
 
 In the project directory, you can run:
 
+### `npm install`
+
+The command "npm install" is used in Node.js projects to install dependencies defined in the package.json file. It will download and install all the required packages and their respective versions specified in the package.json file.
+
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+It will run the server and show the parley betting exchnage site to browser.
+![grocery-in-cart-included-with-stars-6045ld](https://github.com/muhammad-hassan-naseer/parley/assets/136330886/fef71444-762d-41ce-a7ab-2adcb0ba691a)
+![Capture](https://github.com/muhammad-hassan-naseer/parley/assets/136330886/9bb5ad5d-6d0c-4168-b129-c0eaf975f71d)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
 ### `npm test`
 

@@ -1,6 +1,6 @@
 # About Project
 
-Parley betting exchnage is an online Crypto betting site or platforms that allow users to bet and gamble using cryptocurrencies such as Bitcoin, Ethereum, Litecoin, and others. These sites leverage blockchain technology to offer secure, transparent, and decentralized betting experiences.
+Parley betting exchnage is an online Crypto betting site or platform that allow users to bet and gamble using cryptocurrencies such as Bitcoin, Ethereum, Litecoin, and others. The site leverage blockchain technology to offer secure, transparent, and decentralized betting experiences.
 Lear More https://parlay-18c45.web.app/faq
 
 ## Getting Started with Create React App
